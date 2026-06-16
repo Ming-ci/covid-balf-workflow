@@ -1,0 +1,25 @@
+# Large data file (3.5GB — download separately)
+nCoV.rds
+
+# Generated output directories
+Figure/
+Myeloid/
+NKT/
+NKT_T/
+marker/
+
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+Rplots.pdf
+
+# R package lock
+renv/library/
+renv/staging/
+
+# IDE
+.vscode/
+.idea/

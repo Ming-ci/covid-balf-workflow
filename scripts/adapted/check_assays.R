@@ -1,0 +1,7 @@
+.libPaths(c("E:/R/R_libs", .libPaths()))
+library(Seurat)
+nCoV.integrated <- readRDS("E:/Claude code/shengxin/covid_balf/nCoV.rds")
+cat("Assays:", paste(names(nCoV.integrated@assays), collapse=", "), "\n")
+cat("Default assay:", DefaultAssay(nCoV.integrated), "\n")
+cat("Reductions:", paste(names(nCoV.integrated@reductions), collapse=", "), "\n")
+cat("Dim integrated:", dim(nCoV.integrated@assays$integrated), "\n")
